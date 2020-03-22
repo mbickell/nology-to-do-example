@@ -6,9 +6,13 @@
     margin: 4px;
   }
 
-  button {
+  .button {
     height: 50px;
     width: 75%;
     margin: auto;
+  }
+
+  label {
+    display: inline;
   }
 }

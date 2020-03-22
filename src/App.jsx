@@ -7,17 +7,8 @@ import Form from "./containers/Form";
 import CardList from "./containers/CardList";
 
 // Components
-import Card from "./components/Card";
 
-const data = {
-  name: "test",
-  description: "test",
-  startDate: "2020-03-20",
-  endDate: "2020-04-20",
-  image: "https://placekitten.com/200/200"
-};
-
-function App() {
+const App = () => {
   const [todos, setTodos] = useState([{}]);
 
   const fetchData = () => {
@@ -57,6 +48,6 @@ function App() {
       <CardList data={todos} deleteTodo={deleteTodo} />
     </>
   );
-}
+};
 
 export default App;

@@ -9,7 +9,7 @@ const Card = ({ name, description, startDate, endDate, image, deleteTodo, id }) 
       <p>{description}</p>
       <p>{startDate}</p>
       <p>{endDate}</p>
-      <img src={image} alt={`${name} image`} />
+      <img src={image} alt={`${name}`} />
     </div>
   );
 };
